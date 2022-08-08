@@ -1,0 +1,26 @@
+.anchor{
+    cursor: pointer;
+    color: white;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    height: 10%;
+    width: 100%;
+    padding: 15px 2.5% 1px 2.5%;
+    
+}
+
+footer div{
+    margin: auto 2.5%;
+}
+
+footer a{
+    color: white;
+    margin: auto 0.5%;
+    text-decoration: none;
+}
+
