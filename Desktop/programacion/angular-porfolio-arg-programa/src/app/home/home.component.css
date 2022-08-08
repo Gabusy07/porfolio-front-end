@@ -1,26 +1,51 @@
+
+
+#porter{
+    height: 55vh;
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+
+#main_about{
+    position: relative;
+    margin: 15px;
+    margin-top: 100px;
+}
+
+
 .anchor{
     cursor: pointer;
     color: white;
 }
 
+.div_info{
+    margin: 25px;
+}
+
+#navbarHome{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    margin-bottom: 100px;
+    z-index: 10;
+
+}
+
 footer{
     display: flex;
     background-color: black;
-    position: absolute;
+    position: relative;
     bottom: 0px;
-    height: 10%;
+    height: 100px;
     width: 100%;
     padding: 15px 2.5% 1px 2.5%;
     
 }
 
-footer div{
-    margin: auto 2.5%;
-}
+
 
 footer a{
     color: white;
-    margin: auto 0.5%;
-    text-decoration: none;
+    margin: auto 0.5% auto 2.5%;
 }
 
