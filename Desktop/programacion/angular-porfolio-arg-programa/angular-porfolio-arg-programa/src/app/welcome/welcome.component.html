@@ -1,0 +1,15 @@
+<header>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end " >
+       <button class="btn btn-outline-dark" id="account_button" type="button" (click)="enterHome()" [disabled]="enter">ingresar</button>
+       <button class="btn btn-outline-dark" id="account_button" type="button" (click)="register()" [disabled]="enter">registrar</button>
+    </div>
+  </header>
+   
+  <main>
+    <div class="container-xxl-fluid" id="principal_background">
+      <h1 class="text-center" id="welcome_message">BIENVENID@</h1>
+ 
+    </div>
+
+    <app-register-form *ngIf="enter"></app-register-form>
+  </main>

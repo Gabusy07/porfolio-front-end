@@ -1,0 +1,25 @@
+<form class="container-fluid" id="enter_form">
+    <div class="form-group-row elementP">
+        <label class="col-sm-2 col-form-label">Usuario:</label>
+        <div class="col-sm-15">
+            <input class="form-control" type="text" [formControl]="user">
+       </div>
+    </div><br>
+        <div class="form-group-row elementP">
+        <label class="col-sm-2 col-form-label">Email:</label>
+        <div class="col-sm-15">
+            <input class="form-control" type="email" [formControl]="email">
+        </div>
+    </div><br>
+    <div class="form-group-row elementP">
+        <label class="col-sm-2 col-form-label">Contraseña:</label>
+        <div class="col-sm-15">
+            <input class="form-control" type="password" [formControl]="password">
+        </div>
+   </div><br>
+   <div class="d-grid gap-2">
+    <button class="btn btn-primary">registrarse</button>
+   </div>
+
+
+</form>
